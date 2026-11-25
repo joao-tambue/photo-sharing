@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="folder">
+<path id="Combo shape" d="M0 3.375V14.625C0 14.8469 0.0206094 15.0638 0.0599478 15.2737L2.89483 8.82508C3.81764 6.67562 5.8941 5.25 8.22868 5.25H17.3049C17.1254 3.56252 15.7484 2.25 14.0763 2.25H10.7227C10.1448 2.25 9.57727 2.0898 9.0788 1.78592L6.91049 0.464081C6.41201 0.160203 5.84453 0 5.26659 0H3.24839C1.45435 0 0 1.51104 0 3.375ZM8.22865 6.75H17.3247H17.831C19.5143 6.75 20.554 8.65794 19.688 10.1576L16.4208 15.8152C15.638 17.1707 14.2282 18 12.7068 18H3.24834C2.34542 18 1.52855 17.6173 0.939819 16.9994L4.27076 9.42238C4.96592 7.7973 6.51701 6.75 8.22865 6.75Z" fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint0_linear_0_82)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_82" x1="9.99998" y1="0" x2="9.99998" y2="18" gradientUnits="userSpaceOnUse">
+<stop offset="0.07" stop-color="#5DFF81"/>
+<stop offset="1" stop-color="#18D341"/>
+</linearGradient>
+</defs>
+</svg>
