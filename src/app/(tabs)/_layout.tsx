@@ -1,9 +1,7 @@
 import { TabList, TabSlot, TabTrigger, Tabs } from "expo-router/ui";
 
-import { TabBar, TabBarActionButton, TabBarButton } from "@/components/tab-bar";
-
-const userIconSize = { width: 25, height: 25 };
-const moreIconSize = { width: 24.5419, height: 25 };
+import { icons, iconSizes } from "@/shared/assets";
+import { TabBar, TabBarActionButton, TabBarButton } from "@/shared/components/tab-bar";
 
 export default function TabLayout() {
   return (
@@ -12,33 +10,19 @@ export default function TabLayout() {
       <TabList asChild>
         <TabBar>
           <TabTrigger name="index" href="/" asChild>
-            <TabBarButton
-              label="Home"
-              icon={require("@/assets/icons/home.svg")}
-            />
+            <TabBarButton label="Gallery" icon={icons.home} iconSize={iconSizes.tab} />
           </TabTrigger>
-          <TabTrigger name="folder" href="/folder" asChild>
-            <TabBarButton
-              label="Folder"
-              icon={require("@/assets/icons/folder 03.svg")}
-            />
+          <TabTrigger name="transfers" href="/transfers" asChild>
+            <TabBarButton label="Transfers" icon={icons.folder} iconSize={iconSizes.tab} />
           </TabTrigger>
-          <TabTrigger name="send" href="/send" asChild>
-            <TabBarActionButton accessibilityLabel="Send" />
+          <TabTrigger name="nearby" href="/nearby" asChild>
+            <TabBarActionButton label="Share nearby" />
           </TabTrigger>
           <TabTrigger name="profile" href="/profile" asChild>
-            <TabBarButton
-              label="Profile"
-              icon={require("@/assets/icons/user.svg")}
-              iconSize={userIconSize}
-            />
+            <TabBarButton label="Profile" icon={icons.user} iconSize={iconSizes.user} />
           </TabTrigger>
           <TabTrigger name="more" href="/more" asChild>
-            <TabBarButton
-              label="More"
-              icon={require("@/assets/icons/more.svg")}
-              iconSize={moreIconSize}
-            />
+            <TabBarButton label="More" icon={icons.more} iconSize={iconSizes.more} />
           </TabTrigger>
         </TabBar>
       </TabList>
